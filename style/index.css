@@ -72,7 +72,8 @@ header h1{
 header nav{
     display:flex;
     align-items:flex-end;
-    height:7vh
+    height:7vh;
+    margin-left: 34px;
 }
 header nav a{
     font-size: 1.12em;
@@ -82,35 +83,49 @@ header nav a{
     text-align:center;
     border-width:3px;
 }
+.Info {
+    display:flex;
+    justify-content: space-evenly;
+}
 .about {
     width:55%;
-    height:100vh;
     padding:10%;
     display:flex;
     flex-direction: column;
-    align-items: center ;
-    justify-content: center;
-    margin-left: 50%;
-    margin-top:45px;
-    font-size: large;
-    line-height: 43px;    
+    justify-content: flex-start;
+}
+.about p{
+    padding:2.62%;
 }
 .Info .picture{
-    width: 49%;
+    width: 75%;
+    padding: 34px;
     display:flex;
-    align-content:flex-end;
-    justify-content: center;
-    margin-top:40px;
+    justify-content: center;   
+}
+.Info .picture img{
+    width:100%;
 }
 .about h2{
-    font-size: 2em;
+    font-size: 2.2em;
     padding:2%
 }
+.about button{
+    font-size: 1.44em;
+    border-color: hotpink;
+    padding: 1.6%;
+    width: 34%;
+    text-align:center;
+    border-width:3px;
+}
+.about p{
+    font-size:1.6em;
+}
 .slideshow{
-    background-color: aquamarine;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-content: center;
   flex-wrap: wrap;
   padding: 2%;
 }
@@ -119,4 +134,34 @@ header nav a{
   flex-direction: column;
   width: 25%;
   padding: 3% 2% 2%;
+}
+.slideshow div img{
+    width:350px;
+    height:300px;
+    object-fit:cover;
+}
+.slideshow div h3{
+    width:87%;
+    text-align: center;
+    padding:1.22%;
+}
+footer{
+    padding:2%;
+    display:flex;
+    flex-direction: column;
+}
+footer h3{
+    width:58%;
+    font-size:1.6em;
+    display:flex;
+    justify-content: flex-end;
+}
+footer button{
+    font-size: 1.44em;
+    border-color: hotpink;
+    padding: 1.1%;
+    width: 15%;
+    text-align:center;
+    border-width:3px;
+    margin-left:44.5%;
 }
