@@ -45,11 +45,12 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
 /* General Styles */
 * {
 padding:0;
 margin:0;
+max-width:100%;
+box-sizing:border-box;
 }
 html{
     font-size: 62.5%;
@@ -63,46 +64,4 @@ body{
 #home{
     background-color:#DCDCDC;
 }
-.Name h1 {
-    display:flex;
-    justify-content: flex-start;
-    font-size: 1.8em;
-    width: 10%;
-    justify-content: space-around;
-}
-.links{
-    display:flex;
-    justify-content:center;
-    justify-content: space-between;
-    justify-content: stretch;
-    align-items:center;
-    margin: 0 10px;
-}
-.links .Home{
-    border:2px solid black;
-    color:black;
-    background-color:white;
-    width:14%;
-    text-align:center;
-}
-.links .About{
-    border:2px solid black;
-    color:black;
-    background-color:white;
-    width:14%;
-    text-align:center;
-}
-.links .Cont{
-    border:2px solid black;
-    color:black;
-    background-color:white;
-    width:14%;
-    text-align:center;
-}
-.links .Proj{
-    border:2px solid black;
-    color:black;
-    background-color:white;
-    width:14%;
-    text-align:center;
-}
+
