@@ -17,7 +17,10 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+    vertical-align: baseline;
+    box-sizing:border-box;
+    max-width:100%;
+    border:1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -43,4 +46,63 @@ table {
     border-spacing: 0;
 }
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@700&display=swap');
-/* Gesneral Styles */
+/* General Styles */
+* {
+padding:0;
+margin:0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    line-height:2;
+    font-size:1.5rem;
+    font-family: 'Source Serif Pro', serif;
+}
+/* Header Styles */
+#home{
+    background-color:#DCDCDC;
+}
+.Name h1 {
+    display:flex;
+    justify-content: flex-start;
+    font-size: 1.8em;
+    width: 10%;
+    justify-content: space-around;
+}
+.links{
+    display:flex;
+    justify-content:center;
+    justify-content: space-between;
+    justify-content: stretch;
+    align-items:center;
+    margin: 0 10px;
+}
+.links .Home{
+    border:2px solid black;
+    color:black;
+    background-color:white;
+    width:14%;
+    text-align:center;
+}
+.links .About{
+    border:2px solid black;
+    color:black;
+    background-color:white;
+    width:14%;
+    text-align:center;
+}
+.links .Cont{
+    border:2px solid black;
+    color:black;
+    background-color:white;
+    width:14%;
+    text-align:center;
+}
+.links .Proj{
+    border:2px solid black;
+    color:black;
+    background-color:white;
+    width:14%;
+    text-align:center;
+}
