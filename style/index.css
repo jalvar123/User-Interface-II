@@ -56,12 +56,67 @@ html{
     font-size: 62.5%;
 }
 body{
-    line-height:2;
     font-size:1.5rem;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Nunito', sans-serif;
 }
-/* Header Styles */
-#home{
-    background-color:#DCDCDC;
+header{
+    background-color: aquamarine;
+    height:20vh;
+    padding:2%;
 }
-
+header h1{
+    width:20%;
+    font-size:35px;
+    color:rgb(44, 35, 35);
+}
+header nav{
+    display:flex;
+    align-items:flex-end;
+    height:7vh
+}
+header nav a{
+    font-size: 1.12em;
+    border-color: hotpink;
+    padding: 0.6% 0.6%;
+    width: 10%;
+    text-align:center;
+    border-width:3px;
+}
+.about {
+    width:55%;
+    height:100vh;
+    padding:10%;
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+    margin-left: 50%;
+    margin-top:45px;
+    font-size: large;
+    line-height: 43px;    
+}
+.Info .picture{
+    width: 49%;
+    display:flex;
+    align-content:flex-end;
+    justify-content: center;
+    margin-top:40px;
+}
+.about h2{
+    font-size: 2em;
+    padding:2%
+}
+.slideshow{
+    background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+.slideshow div{
+    display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 3% 2% 2%;
+}
