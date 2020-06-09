@@ -62,6 +62,7 @@ body{
     font-family: 'Nunito', sans-serif;
     background-image:url(https://i.pinimg.com/originals/6f/a2/6d/6fa26dbf47f796a69033e641c24b0268.gif);
     background-repeat: no-repeat center;
+    background-size:100%;
 }
 header{
     background-color: aquamarine;
@@ -171,7 +172,7 @@ footer{
     flex-direction: column;
 }
 footer h3{
-    width:60%;
+    width:58%;
     padding:1%;
     font-size:1.6em;
     display:flex;
