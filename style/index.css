@@ -171,7 +171,7 @@ footer{
     flex-direction: column;
 }
 footer h3{
-    width:58%;
+    width:60%;
     padding:1%;
     font-size:1.6em;
     display:flex;
@@ -234,6 +234,34 @@ footer img{
     .about button{
         margin-left:32%;
     }
-    
+    .slideshow div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    footer h3{
+        display: flex;
+        margin-left: 7%;
+    }
+    footer a{
+        margin-right:7%;
+    }
+    body{
+        background-size:100% 100%;
+    }
+    @media(max-width:500px){
+        footer h3{
+            margin-left:15%;
+        }
+        footer button{
+            width:25%;
+            margin-left:38%;
+            margin-right:15%;
+        }
+        footer a{
+            width:82%;
+        }
+    }
 }
 
