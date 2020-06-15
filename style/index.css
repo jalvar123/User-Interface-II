@@ -62,22 +62,25 @@ body{
     font-family: 'Nunito', sans-serif;
     background-image:url(https://i.pinimg.com/originals/6f/a2/6d/6fa26dbf47f796a69033e641c24b0268.gif);
     background-repeat: no-repeat center;
+    background-size:100%;
 }
 header{
     background-color: aquamarine;
-    height:20vh;
+    height:20%;
     padding:2%;
 }
 header h1{
     width:20%;
+    height:15%;
     font-size:35px;
+    margin-bottom: 2.15%;
     color:rgb(44, 35, 35);
 }
 header nav{
-    display:flex;
-    align-items:flex-end;
-    height:7vh;
+    height:50%;
     margin-left: 34px;
+    display: flex;
+    align-content: flex-end;
 }
 header nav a{
     font-size: 1.12em;
@@ -95,8 +98,8 @@ nav a:hover{
     justify-content: space-evenly;
 }
 .about {
-    width:55%;
-    padding:10%;
+    width:65%;
+    padding:5%;
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -105,14 +108,12 @@ nav a:hover{
     padding:2.62%;
 }
 .Info .picture{
-    width: 75%;
+    width: 100%;
     padding: 34px;
     display:flex;
     justify-content: center;   
 }
-.Info .picture img{
-    width:100%;
-}
+
 .about h2{
     font-size: 2.2em;
     padding:2%
@@ -196,3 +197,72 @@ footer img{
     object-fit:cover;
     margin-left: 48%;
 }
+@media(max-width:800px){
+    header h1{
+        width:97%;
+        display: flex;
+        justify-content: center;
+    }
+    header nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-end;
+        margin-left:36%;
+    }
+    header nav a{
+        width:40%;
+        padding:0.6%;
+    }
+    .Info{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Info picture {
+        display: flex;
+        justify-content: center;
+    }
+    .Info .about {
+        display: flex;
+        width:100%;
+        justify-content: center;
+        align-content: flex-start;
+    }
+    .about h2{
+        margin-right:2%;
+    }
+    .about button{
+        margin-left:32%;
+    }
+    .slideshow div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+    footer h3{
+        display: flex;
+        margin-left: 7%;
+    }
+    footer a{
+        margin-right:7%;
+    }
+    body{
+        background-size:100% 100%;
+    }
+    @media(max-width:500px){
+        footer h3{
+            margin-left:15%;
+        }
+        footer button{
+            width:25%;
+            margin-left:38%;
+            margin-right:15%;
+        }
+        footer a{
+            width:82%;
+        }
+    }
+}
+
